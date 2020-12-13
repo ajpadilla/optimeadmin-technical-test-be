@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":294:{a:2:{s:7:"defects";a:2:{s:48:"Technical\Tests\Unit\ExerciseFourTest::firstTest";i:5;s:49:"Technical\Tests\Unit\ExerciseFourTest::secondTest";i:5;}s:5:"times";a:2:{s:48:"Technical\Tests\Unit\ExerciseFourTest::firstTest";d:0.002;s:49:"Technical\Tests\Unit\ExerciseFourTest::secondTest";d:0.002;}}}

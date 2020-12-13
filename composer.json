@@ -1,0 +1,42 @@
+{
+    "name": "technical/optime-consulting",
+    "license": "MIT",
+    "type": "project",
+    "description": "optime consulting php Skeleton - Monorepository",
+    "require": {
+        "php": ">7.2",
+
+        "ext-apcu": "*",
+        "ext-json": "*",
+        "ext-zend-opcache": "*",
+        "ext-pdo": "*",
+
+        "symfony/framework-bundle": "^4.3",
+        "symfony/dotenv": "^4.3",
+        "symfony/yaml": "^4.3",
+        "symfony/validator": "^4.3",
+
+        "lambdish/phunctional": "^2.0",
+
+        "ocramius/proxy-manager": "2.2.2"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+
+        "phpunit/phpunit": "9",
+        "mockery/mockery": "^1.2",
+
+        "fzaninotto/faker": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Technical\\Apps\\Optime\\Backend\\": "apps/optime/backend/src",
+            "Technical\\": ["src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Technical\\Tests\\": ["tests/src"]
+        }
+    }
+}

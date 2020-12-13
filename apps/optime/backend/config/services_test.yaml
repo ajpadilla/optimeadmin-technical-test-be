@@ -1,0 +1,10 @@
+framework:
+  test: true
+
+services:
+  _defaults:
+    autoconfigure: true
+    autowire: true
+
+  Technical\Tests\:
+    resource: '../../../../tests/src'

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/app/tests" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.002506">
+    <testsuite name="Technical\Tests\Unit\ExerciseFourTest" file="/app/tests/src/Unit/ExerciseFourTest.php" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.002506">
+      <testcase name="firstTest" class="Technical\Tests\Unit\ExerciseFourTest" classname="Technical.Tests.Unit.ExerciseFourTest" file="/app/tests/src/Unit/ExerciseFourTest.php" line="20" assertions="3" time="0.002440"/>
+      <testcase name="secondTest" class="Technical\Tests\Unit\ExerciseFourTest" classname="Technical.Tests.Unit.ExerciseFourTest" file="/app/tests/src/Unit/ExerciseFourTest.php" line="46" assertions="3" time="0.000065"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
