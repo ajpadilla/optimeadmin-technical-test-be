@@ -10,7 +10,8 @@ Instale todas las dependencias y abra el proyecto con Docker ejecutando:
 make build
 ```
 
-Luego ir a `http://localhost:8037/health-check` para comprobar que todo está bien
+Luego ir a `http://localhost:8037/health-check` para comprobar que todo está bien, darle permisos de acceso a la carpeta cache del proyecto, por ejemplo:
+sudo chmod -R 777 apps/optime/backend/var/cache, en caso de cualquier error de permisos de acceso.
 
 ## Ejecución de pruebas
 Instale las dependencias si no lo ha hecho anteriormente:
