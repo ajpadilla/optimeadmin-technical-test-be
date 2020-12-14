@@ -5,14 +5,12 @@ Installar Docker
 
 ## Uso con Docker
 
-Just run:
-
 Instale todas las dependencias y abra el proyecto con Docker ejecutando: 
 ```
 make build
 ```
 
-Then go to `http://localhost:8037/health-check` para comprobar que todo está bien
+Luego ir a `http://localhost:8037/health-check` para comprobar que todo está bien
 
 ## Ejecución de pruebas
 Instale las dependencias si no lo ha hecho anteriormente:
@@ -33,7 +31,7 @@ Ejecutar todas las pruebas PHPUnit para el ejercicio nro 1:
 ```
 make exercise-first-test
 ```
-ejecuta el comando comando vendor\bin\phpunit --filter ExerciseOneTest
+ejecuta el comando vendor\bin\phpunit --filter ExerciseOneTest
 
 Ejecutar todas las pruebas PHPUnit para el ejercicio nro 2: 
 
@@ -41,7 +39,7 @@ Ejecutar todas las pruebas PHPUnit para el ejercicio nro 2:
 make exercise-two-test
 ```
 
-ejecuta el comando comando vendor\bin\phpunit --filter ExerciseTwoTest
+ejecuta el comando vendor\bin\phpunit --filter ExerciseTwoTest
 
 Ejecutar todas las pruebas PHPUnit para el ejercicio nro 3: 
 
@@ -49,7 +47,7 @@ Ejecutar todas las pruebas PHPUnit para el ejercicio nro 3:
 make exercise-three-test
 ```
 
-ejecuta el comando comando vendor\bin\phpunit --filter ExerciseThreeTest
+ejecuta el comando vendor\bin\phpunit --filter ExerciseThreeTest
 
 
 Ejecutar todas las pruebas PHPUnit para el ejercicio nro 4: 
@@ -58,5 +56,17 @@ Ejecutar todas las pruebas PHPUnit para el ejercicio nro 4:
 make exercise-four-test
 ```
 
-ejecuta el comando comando vendor\bin\phpunit --filter ExerciseFourTest
+ejecuta el comando vendor\bin\phpunit --filter ExerciseFourTest
 
+
+Dando de baja a los contenedores: 
+
+```
+make destroy
+```
+
+Actualizando dependencias composer: 
+
+```
+make composer-update
+```
